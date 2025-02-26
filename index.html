@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Div id="header">
+        <div class="container">
+                                <nav>
+                                    <img src="images/cropped-logo.jpg" class="logo">
+                                    <ul id="sidemenu">
+                                        <li><a href="#header" >Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#inner">Skills</a></li>
+                                        <li><a href="#Contact">contant</a></li>
+                                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                                    </ul>
+                                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                                </nav>
+                                <div class="hader-text">
+                                    <P>Full-Stack Developer</P>
+                                    <h1>Hi, i'm <samp>Shiva Kumar</samp> <br>from INDIA</h1>
+
+                                </div>
+        </div>
+
+    </Div>
+                        <div id="about">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="about-con-1">
+                                        <img src="images/photo.jpeg" alt="no">
+                                    </div>
+                                    <div class="about-con-2">
+                                        <h1 class="Sub-title">About Me</h1>
+                                        <p>
+                                            Hi,I'm Shiva,a passionate Computer Science and Engineering (CSE) student
+                                            in my 3rd year at Ellenki College of Engineering and Technology, Patelguda.
+                                            I have a strong interest in the software industry and love exploring new technologies.I have experience in Python,C,and Java,and I enjoy working on projects that solve 
+                                            real-world problems.
+                                            </p>
+                                            
+                                            <div class="sub-titles">
+                                                <p class="tab-link action-link" onclick="opentab('skills')">Skills</p>
+                                                <p class="tab-link" onclick="opentab('education')">Education</p>
+                                                <p class="tab-link" onclick="opentab('co-curricular')">Co-Curricular </p>
+                                            </div>
+                                         <div class="tab-cantainer active-tab" id="skills">
+                                            <ul>
+                                            <li><samp>HTML</samp><br>Hypertext Markup Language</li> 
+                                            <li><samp>Java</samp><br>Object Oriented Programming</li>
+                                            <li><samp>Python</samp><br>Project "open computer vision"</li> 
+                                            </ul>
+                                         </div>
+                                            <div class="tab-cantainer" id="education">
+                                                <ul>
+                                                <li><samp>UnderGraduate</samp><br>Ellenki collage <br> Percentage: 7.2</li> 
+                                                <li><samp>Diploma</samp><br>Government Institute Of Electronics <br>Percentage: 9.2</li>
+                                                <li><samp>10TH</samp><br>ZPHS Kotheguda <br>Percentage: 8.3</li> 
+                                                </ul>
+                                            </div>
+                                                <div class="tab-cantainer" id="co-curricular">
+                                                    <ul>
+                                                    <li><samp>Teaching</samp><br>10th and 9th students</li> 
+                                                    <li><samp>Video/Poster Editing</samp><br>Canva,Premiere Pro,Capcut</li>
+                                                    <li><samp>Indoor workout</samp><br>Jumping jacks, Squats, Push-ups, Lunges</li> 
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <a href="" class="btn">Download CV</a>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        
+                    <!------------------- skills ------------------->
+                                <div id="inner">
+                                    <div class="hader">
+                                        <h1>My Skills</h1>
+                                    </div>
+                                    <div class="cont">
+                                        <div class="skill-box">
+                                            <div class="skill-title">
+                                                <div class="img">
+                                                <img src="images/python.png" class="skill-icon">     
+                                                </div>
+                                                <h3>Python</h3>
+                                            </div>
+                                            <p>I have completed 70% of a Python course on YouTube and built a project using OpenCV.</p>
+                                        </div>
+                                        <div class="skill-box">
+                                            <div class="skill-title">
+                                                <div class="img">
+                                                <img src="images/java.png" class="skill-icon">     
+                                                </div>
+                                                <h3>Java</h3>
+                                            </div>
+                                            <p> Java is a multi-platform, object-oriented, and network-centric 
+                                                language that can be used as a platform in itself
+                                                </p>
+                                        </div>
+                                        <div class="skill-box">
+                                            <div class="skill-title">
+                                                <div class="img">
+                                                <img src="images/sql.png" class="skill-icon">     
+                                                </div>
+                                                <h3>SQL</h3>
+                                            </div>
+                                            <p>Structured query language (SQL) is a programming language for 
+                                                storing and processing information in a relational database.
+                                                
+                                                </p>
+                                        </div>
+                                        <div class="skill-box">
+                                            <div class="skill-title" >
+                                                <div class="img">
+                                                <img src="images/html5.png" class="skill-icon">     
+                                                </div>
+                                                <h3>Html 5</h3>
+                                            </div>
+                                            <p>HTML5 is the latest version of the Hypertext Markup Language (HTML), 
+                                            the standard language used for structuring and presenting content on the web</p>
+                                        </div>
+                                        <div class="skill-box">
+                                            <div class="skill-title">
+                                                <div class="img">
+                                                <img src="images/css.png" class="skill-icon">     
+                                                </div>
+                                                <h3>CSS</h3>
+                                            </div>
+                                            <p> CSS is a computer language for laying out and structuring web pages (HTML or XML). 
+                                            
+                                                </p>
+                                        </div>
+                                        <div class="skill-box">
+                                        <div class="skill-title">
+                                            <div class="img">
+                                            <img src="images/eca.jpg" class="skill-icon">     
+                                            </div>
+                                            <h3>Excel</h3>
+                                        </div>
+                                        <p> Microsoft Excel is a spreadsheet program that organizes data into rows and columns.
+                                            
+                                            </p>
+                                    </div>
+                                    <div class="skill-box">
+                                    <div class="skill-title">
+                                        <div class="img">
+                                        <img src="images/ms.png" class="skill-icon">     
+                                        </div>
+                                        <h3>MS Word</h3>
+                                    </div>
+                                    <p>Microsoft Word, or MS Word, is a word processing program that allows users
+                                        to create, edit, and save documents. 
+                                        </p>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-title">
+                                        <div class="img">
+                                        <img src="images/ve.png" class="skill-icon">     
+                                        </div>
+                                        <h3>Video editing</h3>
+                                    </div>
+                                    <p>Video editing is the process of combining and manipulating video files to create a finished video.  
+                                        </p>
+                                </div>
+                                        <div class="skill-box">
+                                            <div class="skill-title">
+                                                <div class="img">
+                                                <img src="images/canva.png" class="skill-icon">     
+                                                </div>
+                                                <h3>Canva</h3>
+                                            </div>
+                                            <p>Canva has many uses across a variety 
+                                                of different specializations and functional areas, 
+                                                its primary use is as a graphic design platform </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ----------------contact---------------- -->
+                                <div id="Contact">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="left">
+                                                <h1 class="Sub-title">Contact me</h1>
+                                                <p><i class="fa-regular fa-paper-plane"></i>Potnurishivakumar26@gmail.com</p>
+                                                <p><i class="fa-solid fa-phone"></i>9121728866</p>
+                                                <div class="socil-icon">
+                                                <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                                                <a target="_blank" href="https://www.instagram.com/im_not_at_?igsh=MXV0eGx5MmNvMzVuNQ=="><i class="fa-brands fa-instagram"></i></a>
+                                                <a target="_blank" href="https://www.linkedin.com/in/shiva-kumar-2183ab262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                                                <a target="_blank" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><i class="fa-brands fa-facebook"></i></a>
+                                                    
+                                             </div>
+                                        </div>
+                                            <div class="right">
+                                                <form name="submit-to-google-sheet">
+                                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                                    <button type="submit" class="btn">Submit</button>
+                                                </form>
+                                                <span id="msg"></span>
+                                            </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>            
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright © shiva.<i class="fa-solid fa-heart"></i> Made wtih by actions</p>
+    </div>
+
+<script>
+    var tablink = document.getElementsByClassName("tab-link");
+    var tabcantainer = document.getElementsByClassName("tab-cantainer");
+
+    function opentab(tabname){
+    for(tablinks of tablink){
+        tablinks.classList.remove("action-link");
+    }
+    for(tabcontainers of tabcantainer){
+        tabcontainers.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("action-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}  
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right= "0";
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZZtJjCTQ_4WrO_Cf0pmWbURzD2oo93xnQZpEf0uMNxauOcoNTx-gSUIdZ6xevpJZH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new  (form)})
+        .then(response => {
+            msg.innerHTML = " Message sent successfully...."
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
